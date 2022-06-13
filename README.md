@@ -23,6 +23,9 @@ Objects refer to single, discrete instances of a particular type. For instance `
 ### Protocols vs. Scripts
 While protocols are unit-level functions with specific arguments, a script is a wrapper that enables the sequential execution of multiple protocols, with variable assignment to direct samples from one operation to the next. Scripts are defined with the `ExperimentScript[...]` function, with protocols separated by semi-colons passed as arguments. See [this example](../PCR_and_Purify.wl) for details.
 
+### ExperimentSamplePreparation
+This can function can be a little confusing, because it can output either a Protocol object or a Script object. The 
+
 ## Example Code
 
 ### PCR_and_Purify.wl
