@@ -6,6 +6,15 @@ This repository provides documentation, example code, and suggestions for Emeral
 ## Concepts
 Breakdown of high-level concepts behind ECL
 
+### "Command" functions
+Command functions are functions that entail physical interaction with the cloud laboratory, and are therefore at the core of every experimental workflow. They almost always return `Object[...]`s which can be inspected for traceability with `Inspect[Object[...]]`. 
+
+#### Protocols
+The most common command function is Protocol-type functions which enact unit operations such as PCR. These return `Object[Protocol, ...]` objects.
+
+#### Transactions
+Another class is Transaction-type functions which entail adding either samples or materials to inventory. These functions are further divided into ShipToECL 
+
 ### Constellation
 The constellation is a database for tracking samples, reagents, and other materials. 
 
