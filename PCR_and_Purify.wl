@@ -25,8 +25,7 @@ ExperimentScript[
    		RoboticSamplePreparation[
     			Transfer[
      				Source -> Model[Sample, "QIAquick Buffer PB"],
-     				Destination -> 
-      Model[Container, Vessel, "1.5mL Tube with 2mL Tube Skirt"],
+     				Destination -> Model[Container, Vessel, "1.5mL Tube with 2mL Tube Skirt"],
      				Amount -> 125 Microliter,
      				DestinationLabel -> "Buffer PB and PCR product"
      			],
