@@ -14,7 +14,7 @@ Breakdown of high-level concepts behind ECL
 - **Transactions:** Another class of command functions are Transaction-type functions which entail adding either samples or materials to inventory. These functions are further divided into `ShipToECL[...]` and `OrderSamples[...]` which pertain to the former and latter cases, respectively.
 
 ### Constellation
-The constellation is a database for tracking samples, reagents, and other materials. 
+The constellation is a database for tracking samples, reagents, and other materials, as well as data such as protocols for tracking sample history.
 
 
 ### Objects vs. Models
