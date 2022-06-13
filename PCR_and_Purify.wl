@@ -5,7 +5,7 @@ TubeContents = ConstantArray[Model[Sample, "Milli-Q water"], Length[TubeNames]];
 ShipToECL[TubeContents, TubeNames,
  	ContainerModel -> Model[Container, Vessel, "IDT 2ml Skirted Tube"],
  	StorageCondition -> Freezer
- ]
+ ];
 
 
 ExperimentScript[
