@@ -1,4 +1,4 @@
-# Cloud Lab Codebase
+# Cloud-Lab-Codebase
 This repository provides documentation, example code, and suggestions for Emerald Cloud Lab users. Emerald Cloud Lab is a platform for running molecular biology workflows such as sequencing, PCR, and cloning entirely from your computer. The user specifies their experimental protocol in a Wolfram Language programming environment, and on-site technicians handle the rest using automated lab equipment.
 
 [Check out the Wiki for a more comprehensive description of ECL concepts](https://github.com/stefangolas/Cloud-Lab-Codebase/wiki)
@@ -18,13 +18,10 @@ The constellation is a database for tracking samples, reagents, and other materi
 
 
 ### Objects vs. Models
-Objects refer to single, discrete instances of a particular type. For instance `Object[Protocol, PCR, "id:01G6nvwJDvmY"]` refers to a single PCR protocol with a unique identity label. Models refer to a class which can be referenced to implement certain behavior. For example, we can transfer `Model[Sample, 'Milli-Q Water]` into  `Model[Container, Vessel, "1.5mL Tube with 2mL Tube Skirt"]` in a protocol. The result of this protocol will then be instantiated as a specific `Object[Sample, 'id:...']` in the Constellation. 
+Objects refer to single, discrete instances of a particular type. For instance `Object[Protocol, PCR, "id:01G6nvwJDvmY"]` refers to a single PCR protocol with a unique identity label.
 
 ### Protocols vs. Scripts
 While protocols are unit-level functions with specific arguments, a script is a wrapper that enables the sequential execution of multiple protocols, with variable assignment to direct samples from one operation to the next. Scripts are defined with the `ExperimentScript[...]` function, with protocols separated by semi-colons passed as arguments. See [this example](../PCR_and_Purify.wl) for details.
-
-### ExperimentSamplePreparation
-This can function can be a little confusing, because it can output either a Protocol object or a Script object. The 
 
 ## Example Code
 
