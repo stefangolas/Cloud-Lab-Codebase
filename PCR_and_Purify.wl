@@ -43,8 +43,7 @@ ExperimentScript[
     			Sample -> "Buffer PB and PCR product",
     			Time -> 3 Minute,
     			Intensity -> 1000 GravitationalAcceleration,
-    			Filter -> 
-     Model[Container, Vessel, Filter, "QIAquick Spin Columns"],
+    			Filter -> Model[Container, Vessel, Filter, "QIAquick Spin Columns"],
     			Target -> Retentate
     		]
    	}
