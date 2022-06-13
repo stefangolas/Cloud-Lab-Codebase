@@ -15,4 +15,6 @@ Breakdown of high-level concepts behind ECL
 ## Example Code
 
 ### PCR_and_Purify.wl
-[Here](../PCR_and_Purify.wl)
+[Here.](../PCR_and_Purify.wl)
+
+Ships samples to ECL and performs a PCR followed by a spin filtration with a Qiagen kit
