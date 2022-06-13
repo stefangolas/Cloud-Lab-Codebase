@@ -7,12 +7,6 @@ ShipToECL[TubeContents, TubeNames,
  	StorageCondition -> Freezer
  ]
 
- OrderSamples[
- 	Object[Product, "QIAquick PCR Purification Small Kit"], (*Product*)
- 	1 (*Quantity*)
- ]
-
-
 
 ExperimentScript[
  PreGibsonPCR = ExperimentPCR[
