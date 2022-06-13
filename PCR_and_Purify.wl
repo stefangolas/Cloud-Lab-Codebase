@@ -19,7 +19,7 @@ ExperimentScript[
    	ExtensionTemperature -> 72 Celsius,
    	NumberOfCycles -> 40
    ];
- AmplifiedTemplate = PreGibsonPCR[[1]];
+ AmplifiedTemplate = PreGibsonPCR[SamplesOut][[1]];
  ExperimentSamplePreparation[
   	{
    		RoboticSamplePreparation[
