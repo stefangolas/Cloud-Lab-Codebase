@@ -16,9 +16,9 @@ ShipToECL[TubeContents, TubeNames,
 
 ExperimentScript[
  PreGibsonPCR = ExperimentPCR[
-   	Object[Sample, "ED0046"],
+   	Object[Sample, "oligo_0001"],
    	{
-    		{{Object[Sample, "ED0049"], Object[Sample, "ED0050"]}}
+    		{{Object[Sample, "oligo_0002"], Object[Sample, "oligo_0003"]}}
     	},
    	MasterMix -> Model[Sample, "DreamTaq PCR Master Mix"],
    	ExtensionTime -> 45 Second,
