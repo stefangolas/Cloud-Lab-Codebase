@@ -7,7 +7,7 @@ This repository provides documentation, example code, and suggestions for Emeral
 Breakdown of high-level concepts behind ECL
 
 ### "Command" functions
-Command functions are functions that entail physical interaction with the cloud laboratory, and are therefore at the core of every experimental workflow. They almost always return `Object[...]` values which can be inspected for traceability with `Inspect[Object[...]]`. 
+"Command" functions are functions that entail physical interaction with the cloud laboratory, and are therefore at the core of every experimental workflow. They always return `Object[...]` values which can be inspected for traceability with `Inspect[Object[...]]`. They also produce effects in the Command Center outside the notebook such as in "Shipments" or "Experiments". The command function distinction does not formally exist in the Command Center (hence quotes) but is practically important for describing a class of functions with unique physical effects.
 
 #### Protocols
 The most common command function is Protocol-type functions which enact unit operations such as PCR. These return `Object[Protocol, ...]` objects.
