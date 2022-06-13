@@ -3,6 +3,9 @@ This repository provides documentation, example code, and suggestions for Emeral
 
 Check out the (Wiki)[/wiki] here for a more comprehensive description of ECL concepts
 
+[I'm an inline-style link](https://www.google.com)
+
+
 ## Concepts
 Breakdown of high-level concepts behind ECL
 
