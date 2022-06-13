@@ -15,3 +15,4 @@ Breakdown of high-level concepts behind ECL
 ## Example Code
 
 ### PCR_and_Purify.wl
+[Here](../PCR_and_Purify.wl)
