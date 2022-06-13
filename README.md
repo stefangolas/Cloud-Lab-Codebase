@@ -7,8 +7,11 @@ This repository provides documentation, example code, and suggestions for Emeral
 Breakdown of high-level concepts behind ECL
 
 ### Constellation
+The constellation is a database for tracking samples, reagents, and other materials. 
+
 
 ### Objects vs. Models
+Objects refer to single, discrete instances of a particular type. For instance `Object[Protocol, PCR, "id:01G6nvwJDvmY"]` refers to a single PCR protocol with a unique identity label.
 
 ### Protocols vs. Scripts
 
