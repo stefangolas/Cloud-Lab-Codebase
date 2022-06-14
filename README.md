@@ -31,4 +31,9 @@ This is a function composed of several child functions called unit ops arranged 
 ### PCR_and_Purify.wl
 [Here.](../PCR_and_Purify.wl)
 
-Ships samples to ECL and performs a PCR followed by a spin filtration with a Qiagen kit
+Ships samples to ECL and performs a PCR followed by a spin filtration with a Qiagen kit.
+  
+  ### Upload_Sample_and_Order.wl
+[Here.](../Upload_Sample_and_Order.wl)
+
+Uploads a sample model for a chemical to Constellation and initiates a transaction to order that chemical.
