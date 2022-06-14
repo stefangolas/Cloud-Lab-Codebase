@@ -1,4 +1,4 @@
-UploadProduct[
+ProductDefinition = UploadProduct[
  	ProductModel -> Model[Sample, "6-Methoxy-2-naphthaldehyde"],
  	CatalogDescription -> "6-Methoxy-2-naphthaldehyde",
  	Supplier -> Object[Company, Supplier, "Ambeed"],
@@ -12,4 +12,4 @@ UploadProduct[
  	Name -> "6-Methoxy-2-naphthaldehyde (100g)"
 ]
 
-OrderSamples[Object[Product, "id:dORYzZJ0MLww"], 1]
+OrderSamples[ProductDefinition, 1]
