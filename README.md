@@ -22,14 +22,12 @@ If you are writing in VS Code or another text editor, you can share your code to
 ## Example Code
 
 ### PCR_Purification.wl
-[Here.](/PCR_Purification.wl)
+[Ships samples to ECL and performs a PCR.](/PCR_Purification.wl)
 
-Ships samples to ECL and performs a PCR.
   
   ### Upload_Sample_and_Order.wl
-[Here.](/Upload_Sample_and_Order.wl)
+[Uploads a sample model for a chemical to Constellation and initiates a transaction to order that chemical.](/Upload_Sample_and_Order.wl)
 
-Uploads a sample model for a chemical to Constellation and initiates a transaction to order that chemical.
 
 ## Concepts
 Breakdown of high-level concepts behind ECL
