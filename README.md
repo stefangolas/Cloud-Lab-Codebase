@@ -1,3 +1,5 @@
+
+  ![Tux, the Linux mascot](blob/main/imgs/bioauto-challenge-22-logo%404x.png)
 # Cloud-Lab-Codebase
 Emerald Cloud Lab is a platform for running molecular biology workflows such as sequencing, PCR, and cloning entirely from your computer. The user specifies their experimental protocol in a Wolfram Language programming environment, and on-site technicians handle the rest using automated lab equipment.
 
