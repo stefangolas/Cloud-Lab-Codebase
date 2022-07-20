@@ -12,7 +12,7 @@ ECL's notebook can run Wolfram code like any other interpreter. It can be easier
 ### Using Git with ECL
 If you are writing in VS Code or another text editor, you can share your code to this repo quite easily, even if you've never used Git. Follow this tutorial for more details.
 
-### Note on Open-Source Collaboration
+### A Note on Open-Source Collaboration
 Open source collaboration is a powerful framework for generating effective software. Try reaching out to other teams to coordinate efforts, or identify solutions to common problems! 
 
 
