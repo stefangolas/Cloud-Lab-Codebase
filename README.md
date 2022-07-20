@@ -21,12 +21,15 @@ If you are writing in VS Code or another text editor, you can share your code to
 
 ## Example Code
 
-### PCR_Purification.wl
-[Ships samples to ECL and performs a PCR.](/PCR_Purification.wl)
-
+### orderLabReadyIDTOligo.wl
+[A function for creating identity and fufillment models of IDT oligos, and DropShipping them to your account. Use this as a function and call it in your notebooks as noted at the top.](/orderLabReadyIDTOligo.wl)
   
-  ### Upload_Sample_and_Order.wl
+### Upload_Sample_and_Order.wl
 [Uploads a sample model for a chemical to Constellation and initiates a transaction to order that chemical.](/Upload_Sample_and_Order.wl)
+
+### PCR_Purification.wl
+[Spin purifies a PCR reaction using a Qiagen Column.](/PCR_Purification.wl)
+
 
 
 ## Concepts
@@ -41,7 +44,6 @@ Breakdown of high-level concepts behind ECL
 
 ### Constellation
 The constellation is a database for tracking samples, reagents, and other materials, as well as data such as protocols for tracking sample history.
-
 
 ### Objects vs. Models
 Objects refer to single, discrete instances of a particular type. For instance `Object[Protocol, PCR, "id:01G6nvwJDvmY"]` refers to a single PCR protocol with a unique identity label.
