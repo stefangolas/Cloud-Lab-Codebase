@@ -7,7 +7,7 @@ Emerald Cloud Lab is a platform for running molecular biology workflows such as 
 [Check out the Wiki for a more comprehensive description of ECL concepts](https://github.com/stefangolas/Cloud-Lab-Codebase/wiki)
 
 ## Bioautomation Collaborators
-If you are a collaborator, welcome to the Bioautomation Challenge 2022! This is a repo for sharing code with other collaborators. Please use this in whatever way you see fit, as long as you adhere to these rules: Don't overwrite anyone's code without their permission, and don't edit **this** front-page README.
+If you are a collaborator, welcome to the Bioautomation Challenge 2022! This is a repo for sharing code with other collaborators. Please use this repo in whatever way you see fit, as long as you adhere to these rules: Don't overwrite anyone's code without their permission, and don't edit **this** front-page README.
 
 ### Text Editor vs. Command Center
 ECL's notebook can run Wolfram code like any other interpreter. It can be easier to edit code outside of the Command Centern and paste it in when you are ready to run. I prefer **Visual Studio Code** to view and edit ECL code and strongly advise anyone who has **16 GB of RAM** or less on their computer to try it out. If you'd like to learn how to set up VS Code for programming in ECL, follow this tutorial.
