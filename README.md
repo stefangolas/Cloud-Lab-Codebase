@@ -16,7 +16,7 @@ Open source collaboration is a powerful framework for generating effective softw
 ECL's notebook can run Wolfram code like any other interpreter. It can be easier to edit code outside of the Command Centern and paste it in when you are ready to run. I prefer **Visual Studio Code** to view and edit ECL code and strongly advise anyone who has **16 GB of RAM** or less on their computer to try it out. If you'd like to learn how to set up VS Code for programming in ECL, follow this tutorial.
 
 ### Using Git with ECL
-If you are writing in VS Code or another text editor, you can share your code to this repo quite easily, even if you've never used Git. Follow this tutorial for more details.
+If you are writing in VS Code or another text editor, you can share your code to this repo quite easily, even if you've never used Git. Follow [this tutorial](https://github.com/stefangolas/Cloud-Lab-Codebase/wiki/How-to-use-Git-with-ECL) for more details.
 
 ## Concepts
 Breakdown of high-level concepts behind ECL
