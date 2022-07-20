@@ -18,6 +18,19 @@ ECL's notebook can run Wolfram code like any other interpreter. It can be easier
 ### Using Git with ECL
 If you are writing in VS Code or another text editor, you can share your code to this repo quite easily, even if you've never used Git. Follow [this tutorial](https://github.com/stefangolas/Cloud-Lab-Codebase/wiki/How-to-use-Git-with-ECL) for more details.
 
+
+## Example Code
+
+### PCR_Purification.wl
+[Here.](/PCR_Purification.wl)
+
+Ships samples to ECL and performs a PCR.
+  
+  ### Upload_Sample_and_Order.wl
+[Here.](/Upload_Sample_and_Order.wl)
+
+Uploads a sample model for a chemical to Constellation and initiates a transaction to order that chemical.
+
 ## Concepts
 Breakdown of high-level concepts behind ECL
 
@@ -41,14 +54,3 @@ While protocols are unit-level functions with specific arguments, a script is a 
 ### ExperimentSamplePreparation
 This is a function composed of several child functions called unit ops arranged as a list such that the signature is `ExperimentSamplePreparation[{..}]`. This can be a confusing function because it returns either a Protocol object or a Script object depending on whether all of the Unit Ops are robotic (in which case it is a protocol) or not (in which case it is a script). <p>Unit ops are very similar to protocols, and in many cases have protocol counterparts. They are distinguished from their counterparts by the lack of an Experiment prefix, e.g. `ExperimentFilter[...]` will be a protocol and `Filter[...]` will be a unit op, but they will have the exact same parameters. The choice of usage depends on the context, i.e. a unit op will only be used in `ExperimentSamplePreparation[{..}]`. Unit ops are separated by commas in their parent function signature.
 
-## Example Code
-
-### PCR_and_Purify.wl
-[Here.](/PCR_and_Purify.wl)
-
-Ships samples to ECL and performs a PCR followed by a spin filtration with a Qiagen kit.
-  
-  ### Upload_Sample_and_Order.wl
-[Here.](/Upload_Sample_and_Order.wl)
-
-Uploads a sample model for a chemical to Constellation and initiates a transaction to order that chemical.
