@@ -3,6 +3,12 @@ This repository provides documentation, example code, and suggestions for Emeral
 
 [Check out the Wiki for a more comprehensive description of ECL concepts](https://github.com/stefangolas/Cloud-Lab-Codebase/wiki)
 
+## Bioautomation Collaborators
+If you are a collaborator, welcome to the Bioautomation Challenge 2022! This is a repo for sharing code with other collaborators. Please use this in whatever way you see fit, as long as you adhere to these rules: Don't overwrite anyone's code without their permission, and don't edit *this* front-page README.
+
+### Using Git with ECL Command Center
+ECL's notebook can run Wolfram code like any other interpreter. It can be easier to edit code outside of the Command Center, especially once you are more comfortable with the language. I personally prefer *Visual Studio Code* to view and edit ECL code and strongly advise anyone who has 16 GB of RAM or less on their computer to try it out. 
+
 ## Concepts
 Breakdown of high-level concepts behind ECL
 
