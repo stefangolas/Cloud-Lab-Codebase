@@ -1,6 +1,6 @@
 InputSample = Model[Sample, "Milli-Q water"]
 
-ExperimentFilter["input sample",(*already contains sample and PB \buffer*)(*centrifuge and filter*)
+PurificationProtocol = ExperimentFilter["input sample",(*already contains sample and PB \buffer*)(*centrifuge and filter*)
     Intensity -> 1000 GravitationalAcceleration, 
     Filter -> Model[Container, Vessel, Filter, "QIAquick Spin Columns"],(*retentate wash options have nested index matching and we'll save the second flow-through*)
     RetentateWashBuffer -> {{Model[Sample, "QIAquick Buffer PE"], Model[Sample, "QIAquick Buffer EB"]}}, 
@@ -24,3 +24,5 @@ ExperimentFilter["input sample",(*already contains sample and PB \buffer*)(*cent
             ]
         }
     ]
+
+   PurificationProtocol[BatchedUnitOperations][[1]][WashFlowThroughSample][[-1]]
