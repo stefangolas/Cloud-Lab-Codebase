@@ -4,6 +4,8 @@ Then call from a notebook page using the syntax like this:
 orderLabReadyIDTOligo["ED0022", "gcgaattaatacgactcactatagg", "18698425"] 
 *)
 
+
+(*Comment*)
 orderLabReadyIDTOligo[oligoName_, DNABases_, OrderNumber_] := Module[
   {},
   (*identity model*)
