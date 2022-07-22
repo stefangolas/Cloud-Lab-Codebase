@@ -9,7 +9,7 @@ Emerald Cloud Lab is a platform for running molecular biology workflows such as 
 ## Bioautomation Collaborators
 If you are a collaborator, welcome to the Bioautomation Challenge 2022! This is a repo for sharing code with other collaborators. Please use this repo in whatever way you see fit, as long as you adhere to these rules: Don't overwrite anyone's code without their permission, and don't edit **this** front-page README.
 
-### A Note on Open-Source Collaboration
+### Open-Source Collaboration
 Open source collaboration is a powerful framework for generating effective software. Try reaching out to other teams to coordinate efforts, or identify solutions to common problems! 
 
 ### Text Editor vs. Command Center
