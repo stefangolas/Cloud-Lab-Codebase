@@ -30,6 +30,9 @@ If you are writing in VS Code or another text editor, you can share your code to
 ### PCR_Purification.wl
 [Spin purifies a PCR reaction using a Qiagen Column.](/PCR_Purification.wl)
 
+### PCR_Gel_Extraction.wl
+[Runs a PCR and extracts a band from gel.](/PCR_Gel_Extraction.wl)
+
 ### Duplicate a 96-well plate
 
 ### Split a sample into multiple tubes (aliquot)
