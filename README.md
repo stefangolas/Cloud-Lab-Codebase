@@ -33,6 +33,10 @@ If you are writing in VS Code or another text editor, you can share your code to
 ### PCR_Gel_Extraction.wl
 [Runs a PCR and extracts a band from gel.](/PCR_Gel_Extraction.wl)
 
+### abs_260_230.wl
+[Outputs the 260/230 ratios from a spectrophotometer reading (Function)](/abs_260_230.wl)
+
+
 ### Duplicate a 96-well plate
 
 ### Split a sample into multiple tubes (aliquot)
